@@ -1,0 +1,6 @@
+Injector:
+  MyClient:
+    class: GoogleClient
+    constructor:
+      0: 'My Application'
+  Proc

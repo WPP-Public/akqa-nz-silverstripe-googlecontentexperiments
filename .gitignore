@@ -1,0 +1,6 @@
+/build
+!/build/phpmd.xml
+/sapphire
+/vendor
+/.idea
+/dataobject_manager
