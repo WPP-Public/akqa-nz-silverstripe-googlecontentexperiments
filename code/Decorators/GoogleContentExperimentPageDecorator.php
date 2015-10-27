@@ -4,7 +4,7 @@
  *
  * Decorate pages or objects
  */
-class GoogleContentExperimentPageDecorator extends Extension
+class GoogleContentExperimentPageDecorator extends DataExtension
 {
 
     private static $has_one = array(
