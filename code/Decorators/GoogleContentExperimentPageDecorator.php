@@ -21,7 +21,7 @@ class GoogleContentExperimentPageDecorator extends DataExtension
 
         $fields->addFieldToTab(
             'Root.ContentExperiment',
-            new HasOneDataObjectManager($this->owner, 'ContentExperiment', 'GoogleContentExperiment')
+            new GridField('ContentExperiment', 'GoogleContentExperiment', $this->owner)
         );
 
     }
