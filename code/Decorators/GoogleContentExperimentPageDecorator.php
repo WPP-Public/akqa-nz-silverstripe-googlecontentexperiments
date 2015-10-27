@@ -14,9 +14,9 @@ class GoogleContentExperimentPageDecorator extends Extension
     /**
      * Update the CMS fields on the extended object
      *
-     * @param FieldSet $fields
+     * @param FieldList $fields
      */
-    public function updateCMSFields(FieldSet &$fields)
+    public function updateCMSFields(FieldList $fields)
     {
 
         $fields->addFieldToTab(
