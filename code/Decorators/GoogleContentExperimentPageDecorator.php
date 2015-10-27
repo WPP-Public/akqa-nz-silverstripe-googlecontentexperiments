@@ -7,17 +7,9 @@
 class GoogleContentExperimentPageDecorator extends Extension
 {
 
-    /**
-     * @return array Data for the ORM
-     */
-    public function extraStatics()
-    {
-        return array(
-            'has_one' => array(
-                'ContentExperiment' => 'GoogleContentExperiment'
-            )
-        );
-    }
+    private static $has_one = array(
+        'ContentExperiment' => 'GoogleContentExperiment'
+    );
 
     /**
      * Update the CMS fields on the extended object
