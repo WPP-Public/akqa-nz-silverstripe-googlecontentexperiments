@@ -1,8 +1,8 @@
 <% if GoogleContentExperiment %>
 <script src="//www.google-analytics.com/cx/api.js"></script>
 <script>
-<% control getGoogleContentExperimentsData %>
+<% loop getGoogleContentExperimentsData %>
 	cxApi.setChosenVariation('{$VariationID}','{$ExperimentID}');
-<% end_control %>
+<% end_loop %>
 </script>
 <% end_if %>

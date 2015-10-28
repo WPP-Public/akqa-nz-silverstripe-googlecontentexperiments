@@ -4,32 +4,24 @@
  *
  * Decorate pages or objects
  */
-class GoogleContentExperimentPageDecorator extends Extension
+class GoogleContentExperimentPageDecorator extends DataExtension
 {
 
-    /**
-     * @return array Data for the ORM
-     */
-    public function extraStatics()
-    {
-        return array(
-            'has_one' => array(
-                'ContentExperiment' => 'GoogleContentExperiment'
-            )
-        );
-    }
+    private static $has_one = array(
+        'ContentExperiment' => 'GoogleContentExperiment'
+    );
 
     /**
      * Update the CMS fields on the extended object
      *
-     * @param FieldSet $fields
+     * @param FieldList $fields
      */
-    public function updateCMSFields(FieldSet &$fields)
+    public function updateCMSFields(FieldList $fields)
     {
 
         $fields->addFieldToTab(
             'Root.ContentExperiment',
-            new HasOneDataObjectManager($this->owner, 'ContentExperiment', 'GoogleContentExperiment')
+            new GridField('ContentExperiment', 'GoogleContentExperiment', $this->owner)
         );
 
     }
@@ -190,12 +182,12 @@ class GoogleContentExperimentPageDecorator extends Extension
     /**
      * Get experiment data including VariationID and ExperimentID for the front end.
      *
-     * @return DataObjectSet
+     * @return ArrayList
      */
     public function getGoogleContentExperimentsData()
     {
 
-        $experimentData = new DataObjectSet();
+        $experimentData = new ArrayList();
 
         foreach ($this->getActiveExperimentsIDs() as $experimentID) {
 

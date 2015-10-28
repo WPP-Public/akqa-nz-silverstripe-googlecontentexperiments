@@ -10,6 +10,8 @@ SilverStripe Google Content Experiments is released under the [MIT license](http
 
 ## Installation
 
+    If using SivlerStripe version 2.4, please use the 1.0.0 tag
+
 	$ composer require silverstripe-googlecontentexperiments
 
 ## How to use
