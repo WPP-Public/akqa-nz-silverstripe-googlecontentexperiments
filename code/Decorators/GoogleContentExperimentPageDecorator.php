@@ -182,12 +182,12 @@ class GoogleContentExperimentPageDecorator extends DataExtension
     /**
      * Get experiment data including VariationID and ExperimentID for the front end.
      *
-     * @return DataObjectSet
+     * @return ArrayList
      */
     public function getGoogleContentExperimentsData()
     {
 
-        $experimentData = new DataObjectSet();
+        $experimentData = new ArrayList();
 
         foreach ($this->getActiveExperimentsIDs() as $experimentID) {
 
