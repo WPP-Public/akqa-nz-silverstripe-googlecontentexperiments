@@ -3,7 +3,7 @@
 class GoogleContentExperiment extends DataObject
 {
 
-    public static $db = array(
+    private static $db = array(
         'StartTime' => 'SS_DateTime',
         'EndTime' => 'SS_DateTime',
         'Name' => 'Text',
@@ -15,12 +15,12 @@ class GoogleContentExperiment extends DataObject
         'GlobalExperiment' => 'Boolean'
     );
 
-    public static $has_many = array(
+    private static $has_many = array(
         'ContentExperimentVariations' => 'GoogleContentExperimentVariation',
         'Pages' => 'Page'
     );
 
-    public static $summary_fields = array(
+    private static $summary_fields = array(
         'Name' => 'Name',
         'IsGlobal' => 'Global'
     );

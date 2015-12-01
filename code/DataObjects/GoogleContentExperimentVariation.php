@@ -4,13 +4,13 @@
 class GoogleContentExperimentVariation extends DataObject
 {
 
-    public static $db = array(
+    private static $db = array(
         'VariationID' => 'Int',
         'Weight' => 'Decimal(10,2)',
         'Status' => 'Varchar(255)'
     );
 
-    public static $has_one = array(
+    private static $has_one = array(
         'ContentExperiment' => 'GoogleContentExperiment'
     );
 
