@@ -15,9 +15,12 @@ class GoogleContentExperiment extends DataObject
         'GlobalExperiment' => 'Boolean'
     );
 
+    private static $has_one = array(
+        'Page' => 'Page'
+    );
+
     private static $has_many = array(
-        'ContentExperimentVariations' => 'GoogleContentExperimentVariation',
-        'Pages' => 'Page'
+        'ContentExperimentVariations' => 'GoogleContentExperimentVariation'
     );
 
     private static $summary_fields = array(
