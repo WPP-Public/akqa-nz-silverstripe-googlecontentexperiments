@@ -7,7 +7,7 @@
 class GoogleContentExperimentPageDecorator extends DataExtension
 {
 
-    private static $has_one = array(
+    private static $has_many = array(
         'ContentExperiment' => 'GoogleContentExperiment'
     );
 
@@ -18,12 +18,9 @@ class GoogleContentExperimentPageDecorator extends DataExtension
      */
     public function updateCMSFields(FieldList $fields)
     {
-
-        $fields->addFieldToTab(
-            'Root.ContentExperiment',
-            new GridField('ContentExperiment', 'GoogleContentExperiment', $this->owner)
-        );
-
+        $gridFieldConfig = GridFieldConfig_RelationEditor::create();
+        $gridField = new GridField('Content Experiment', 'ContentExperiment', $this->owner->ContentExperiment(), $gridFieldConfig);
+        $fields->addFieldToTab('Root.ContentExperiment', $gridField);
     }
 
     /**

@@ -3,7 +3,7 @@
 class GoogleContentExperiment extends DataObject
 {
 
-    public static $db = array(
+    private static $db = array(
         'StartTime' => 'SS_DateTime',
         'EndTime' => 'SS_DateTime',
         'Name' => 'Text',
@@ -15,22 +15,23 @@ class GoogleContentExperiment extends DataObject
         'GlobalExperiment' => 'Boolean'
     );
 
-    public static $has_many = array(
-        'ContentExperimentVariations' => 'GoogleContentExperimentVariation',
-        'Pages' => 'Page'
+    private static $has_one = array(
+        'Page' => 'Page'
     );
 
-    public static $summary_fields = array(
+    private static $has_many = array(
+        'ContentExperimentVariations' => 'GoogleContentExperimentVariation'
+    );
+
+    private static $summary_fields = array(
         'Name' => 'Name',
         'IsGlobal' => 'Global'
     );
 
     public function getCMSFields()
     {
-        $fields = new FieldList();
-
+        $fields = parent::getCMSFields();
         $fields->push(new CheckboxField('GlobalExperiment'));
-
         return $fields;
     }
 
