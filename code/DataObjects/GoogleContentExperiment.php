@@ -27,10 +27,8 @@ class GoogleContentExperiment extends DataObject
 
     public function getCMSFields()
     {
-        $fields = new FieldList();
-
+        $fields = parent::getCMSFields();
         $fields->push(new CheckboxField('GlobalExperiment'));
-
         return $fields;
     }
 
