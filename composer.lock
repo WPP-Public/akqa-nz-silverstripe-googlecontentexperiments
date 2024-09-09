@@ -1,9 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
     ],
-    "hash": "0c43275339545ae6906677c445f624ca",
+    "content-hash": "dd1433e50baa2fc45471c33064c6e7a3",
     "packages": [
         {
             "name": "composer/installers",
@@ -76,7 +77,7 @@
                 "wordpress",
                 "zend"
             ],
-            "time": "2013-08-20 04:37:09"
+            "time": "2013-08-20T04:37:09+00:00"
         },
         {
             "name": "nyholm/google-api-php-client",
@@ -119,7 +120,7 @@
                 "gdata",
                 "google"
             ],
-            "time": "2013-08-02 05:37:08"
+            "time": "2013-08-02T05:37:08+00:00"
         },
         {
             "name": "pimple/pimple",
@@ -165,7 +166,7 @@
                 "container",
                 "dependency injection"
             ],
-            "time": "2013-03-08 08:21:40"
+            "time": "2013-03-08T08:21:40+00:00"
         }
     ],
     "packages-dev": [
@@ -221,7 +222,7 @@
             "keywords": [
                 "markdown"
             ],
-            "time": "2012-01-16 03:36:37"
+            "time": "2012-01-16T03:36:37+00:00"
         },
         {
             "name": "nikic/php-parser",
@@ -265,7 +266,7 @@
                 "parser",
                 "php"
             ],
-            "time": "2013-08-25 17:11:40"
+            "time": "2013-08-25T17:11:40+00:00"
         },
         {
             "name": "pdepend/pdepend",
@@ -290,7 +291,7 @@
             "type": "library",
             "notification-url": "https://packagist.org/downloads/",
             "description": "Official version of pdepend to be handled with Composer",
-            "time": "2013-07-25 19:23:48"
+            "time": "2013-07-25T19:23:48+00:00"
         },
         {
             "name": "phploc/phploc",
@@ -340,7 +341,7 @@
             ],
             "description": "A tool for quickly measuring the size of a PHP project.",
             "homepage": "https://github.com/sebastianbergmann/phploc",
-            "time": "2013-09-03 16:29:57"
+            "time": "2013-09-03T16:29:57+00:00"
         },
         {
             "name": "phpmd/phpmd",
@@ -370,7 +371,7 @@
                 "src/main/php"
             ],
             "description": "Official version of PHPMD handled with Composer.",
-            "time": "2013-07-26 14:47:02"
+            "time": "2013-07-26T14:47:02+00:00"
         },
         {
             "name": "phpunit/php-code-coverage",
@@ -431,7 +432,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2013-07-06 06:26:16"
+            "time": "2013-07-06T06:26:16+00:00"
         },
         {
             "name": "phpunit/php-file-iterator",
@@ -476,7 +477,7 @@
                 "filesystem",
                 "iterator"
             ],
-            "time": "2012-10-11 11:44:38"
+            "time": "2012-10-11T11:44:38+00:00"
         },
         {
             "name": "phpunit/php-text-template",
@@ -520,7 +521,7 @@
             "keywords": [
                 "template"
             ],
-            "time": "2012-10-31 18:15:28"
+            "time": "2012-10-31T18:15:28+00:00"
         },
         {
             "name": "phpunit/php-timer",
@@ -564,7 +565,7 @@
             "keywords": [
                 "timer"
             ],
-            "time": "2013-08-02 07:42:54"
+            "time": "2013-08-02T07:42:54+00:00"
         },
         {
             "name": "phpunit/php-token-stream",
@@ -614,7 +615,7 @@
             "keywords": [
                 "tokenizer"
             ],
-            "time": "2013-08-04 05:57:48"
+            "time": "2013-08-04T05:57:48+00:00"
         },
         {
             "name": "phpunit/phpunit",
@@ -688,7 +689,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2013-08-09 06:58:24"
+            "time": "2013-08-09T06:58:24+00:00"
         },
         {
             "name": "phpunit/phpunit-mock-objects",
@@ -737,7 +738,7 @@
                 "mock",
                 "xunit"
             ],
-            "time": "2013-01-13 10:24:48"
+            "time": "2013-01-13T10:24:48+00:00"
         },
         {
             "name": "sami/sami",
@@ -794,7 +795,7 @@
             "keywords": [
                 "phpdoc"
             ],
-            "time": "2013-08-04 15:19:13"
+            "time": "2013-08-04T15:19:13+00:00"
         },
         {
             "name": "sebastian/finder-facade",
@@ -833,7 +834,7 @@
             ],
             "description": "FinderFacade is a convenience wrapper for Symfony's Finder component.",
             "homepage": "https://github.com/sebastianbergmann/finder-facade",
-            "time": "2013-05-28 06:10:03"
+            "time": "2013-05-28T06:10:03+00:00"
         },
         {
             "name": "sebastian/git",
@@ -879,7 +880,7 @@
             "keywords": [
                 "git"
             ],
-            "time": "2013-08-04 09:35:29"
+            "time": "2013-08-04T09:35:29+00:00"
         },
         {
             "name": "sebastian/version",
@@ -914,48 +915,7 @@
             ],
             "description": "Library that helps with managing the version number of Git-hosted PHP projects",
             "homepage": "https://github.com/sebastianbergmann/version",
-            "time": "2013-05-29 10:02:00"
-        },
-        {
-            "name": "silverstripe/framework",
-            "version": "2.4.11",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/silverstripe/silverstripe-framework.git",
-                "reference": "a6a7b01afc77fa94bda7950c3f3c86c7c40d0ee7"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-framework/zipball/a6a7b01afc77fa94bda7950c3f3c86c7c40d0ee7",
-                "reference": "a6a7b01afc77fa94bda7950c3f3c86c7c40d0ee7",
-                "shasum": ""
-            },
-            "require": {
-                "composer/installers": "*",
-                "php": ">=5.2.4"
-            },
-            "type": "silverstripe-module",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "SilverStripe",
-                    "homepage": "http://silverstripe.com"
-                },
-                {
-                    "name": "The SilverStripe Community",
-                    "homepage": "http://silverstripe.org"
-                }
-            ],
-            "description": "The SilverStripe Framework",
-            "homepage": "http://silverstripe.org",
-            "keywords": [
-                "framework",
-                "silverstripe"
-            ],
-            "time": "2013-08-07 13:23:46"
+            "time": "2013-05-29T10:02:00+00:00"
         },
         {
             "name": "symfony/class-loader",
@@ -1005,7 +965,7 @@
             ],
             "description": "Symfony ClassLoader Component",
             "homepage": "http://symfony.com",
-            "time": "2013-08-13 20:18:00"
+            "time": "2013-08-13T20:18:00+00:00"
         },
         {
             "name": "symfony/console",
@@ -1058,7 +1018,7 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "http://symfony.com",
-            "time": "2013-08-17 16:34:49"
+            "time": "2013-08-17T16:34:49+00:00"
         },
         {
             "name": "symfony/filesystem",
@@ -1105,7 +1065,7 @@
             ],
             "description": "Symfony Filesystem Component",
             "homepage": "http://symfony.com",
-            "time": "2013-07-21 12:12:18"
+            "time": "2013-07-21T12:12:18+00:00"
         },
         {
             "name": "symfony/finder",
@@ -1152,7 +1112,86 @@
             ],
             "description": "Symfony Finder Component",
             "homepage": "http://symfony.com",
-            "time": "2013-08-13 20:18:00"
+            "time": "2013-08-13T20:18:00+00:00"
+        },
+        {
+            "name": "symfony/polyfill-ctype",
+            "version": "v1.19.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/polyfill-ctype.git",
+                "reference": "aed596913b70fae57be53d86faa2e9ef85a2297b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/aed596913b70fae57be53d86faa2e9ef85a2297b",
+                "reference": "aed596913b70fae57be53d86faa2e9ef85a2297b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "suggest": {
+                "ext-ctype": "For best performance"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "1.19-dev"
+                },
+                "thanks": {
+                    "name": "symfony/polyfill",
+                    "url": "https://github.com/symfony/polyfill"
+                }
+            },
+            "autoload": {
+                "files": [
+                    "bootstrap.php"
+                ],
+                "psr-4": {
+                    "Symfony\\Polyfill\\Ctype\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Gert de Pagter",
+                    "email": "BackEndTea@gmail.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony polyfill for ctype functions",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "compatibility",
+                "ctype",
+                "polyfill",
+                "portable"
+            ],
+            "support": {
+                "source": "https://github.com/symfony/polyfill-ctype/tree/v1.19.0"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2020-10-23T09:01:57+00:00"
         },
         {
             "name": "symfony/process",
@@ -1199,7 +1238,7 @@
             ],
             "description": "Symfony Process Component",
             "homepage": "http://symfony.com",
-            "time": "2013-08-22 06:42:25"
+            "time": "2013-08-22T06:42:25+00:00"
         },
         {
             "name": "symfony/yaml",
@@ -1246,7 +1285,7 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "http://symfony.com",
-            "time": "2013-08-24 15:26:22"
+            "time": "2013-08-24T15:26:22+00:00"
         },
         {
             "name": "theseer/fdomdocument",
@@ -1286,34 +1325,43 @@
             ],
             "description": "The classes contained within this repository extend the standard DOM to use exceptions at all occasions of errors instead of PHP warnings or notices. They also add various custom methods and shortcuts for convinience and to simplify the usage of DOM.",
             "homepage": "https://github.com/theseer/fDOMDocument",
-            "time": "2013-06-30 12:26:39"
+            "time": "2013-06-30T12:26:39+00:00"
         },
         {
             "name": "twig/twig",
-            "version": "v1.13.2",
+            "version": "v1.36.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/fabpot/Twig.git",
-                "reference": "6d6a1009427d1f398c9d40904147bf9f723d5755"
+                "url": "https://github.com/twigphp/Twig.git",
+                "reference": "730c9c4471b5152d23061feb02b03382264c8a15"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fabpot/Twig/zipball/6d6a1009427d1f398c9d40904147bf9f723d5755",
-                "reference": "6d6a1009427d1f398c9d40904147bf9f723d5755",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/730c9c4471b5152d23061feb02b03382264c8a15",
+                "reference": "730c9c4471b5152d23061feb02b03382264c8a15",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.2.4"
+                "php": ">=5.3.3",
+                "symfony/polyfill-ctype": "^1.8"
+            },
+            "require-dev": {
+                "psr/container": "^1.0",
+                "symfony/debug": "^2.7",
+                "symfony/phpunit-bridge": "^3.4.19|^4.1.8"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.13-dev"
+                    "dev-master": "1.36-dev"
                 }
             },
             "autoload": {
                 "psr-0": {
                     "Twig_": "lib/"
+                },
+                "psr-4": {
+                    "Twig\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1323,33 +1371,45 @@
             "authors": [
                 {
                     "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com"
+                    "email": "fabien@symfony.com",
+                    "homepage": "http://fabien.potencier.org",
+                    "role": "Lead Developer"
                 },
                 {
                     "name": "Armin Ronacher",
-                    "email": "armin.ronacher@active-4.com"
+                    "email": "armin.ronacher@active-4.com",
+                    "role": "Project Founder"
+                },
+                {
+                    "name": "Twig Team",
+                    "homepage": "https://twig.symfony.com/contributors",
+                    "role": "Contributors"
                 }
             ],
             "description": "Twig, the flexible, fast, and secure template language for PHP",
-            "homepage": "http://twig.sensiolabs.org",
+            "homepage": "https://twig.symfony.com",
             "keywords": [
                 "templating"
             ],
-            "time": "2013-08-03 15:35:31"
+            "support": {
+                "forum": "https://groups.google.com/forum/#!forum/twig-users",
+                "issues": "https://github.com/twigphp/Twig/issues",
+                "source": "https://github.com/twigphp/Twig/tree/1.x"
+            },
+            "time": "2018-12-16T10:34:11+00:00"
         }
     ],
-    "aliases": [
-
-    ],
+    "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
         "phploc/phploc": 20,
         "sami/sami": 20
     },
+    "prefer-stable": false,
+    "prefer-lowest": false,
     "platform": {
         "php": ">=5.3.2"
     },
-    "platform-dev": [
-
-    ]
+    "platform-dev": [],
+    "plugin-api-version": "2.6.0"
 }
